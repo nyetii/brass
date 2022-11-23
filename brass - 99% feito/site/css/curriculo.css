@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #0E0E10;
+}
+
+.logo_header{
+    margin-left: 35px;
+}
+
+.botao_nav_menu{
+    margin-right: 50px;
+}
+
+.conteudo{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.hr_entresecoes{
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.h1_conteudo{
+    text-align: center;
+    font-size: 50px;
+}
+
+.curriculos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img.curriculos{
+    border:  solid 3px black;
+}
