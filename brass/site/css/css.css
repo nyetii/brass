@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #0E0E10;
+}
+
+.logo_header{
+    margin-left: 35px;
+}
+
+.botao_nav_menu{
+    margin-right: 50px;
+}
+
+.hr_entresecoes{
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.main{
+    display: flex;
+}
+
+.conteudo h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+.conteudo{
+    margin-left: 450px;
+}
+
+.p_conteudo{
+    padding: 1px;
+}
+.aside{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 300px
+}
+
+.divbordas{
+    border: solid 2px black;
+    margin-bottom: 5px;
+    padding: -10px;
+}
+
+.divbordas p{
+    text-align: center;
+}
+
+.imagem_conteudo{
+    margin-right: 100px;
+}
+
+.hr_footer-main{
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0E0E10;
+    padding: 30px;
+    align-items: center;
+}
+
+.logo_senac_footer{
+    position: relative;
+    top: 50px;
+}
+
+.logo_footer{
+    margin-right: 80px;
+}
+
+.script{
+    font-size: 30px;
+    text-align: center;
+}

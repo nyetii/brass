@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Linguagens</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="logo_header"><img src="../imagens/logo_semfundo_370px.png" alt="Logo Header"></div>
+
+        <div></div>
+        
+        <nav>
+            <div class="botao_nav_menu"><img src="../imagens/menu_semfundo_100px.png" alt=""></div>
+        </nav>
+        
+    </header>
+
+    <hr class="hr_entresecoes">
+
+    <main class="main">
+        <section class="conteudo">
+
+            <h1>Data e hora de entrada do site</h1>
+            <p id="p1" class="script"></p>
+
+            <h1 class="h1_conteudo">
+                Matérias - Linguagens
+            </h1>
+
+            <h2>
+                Primeiro Bimestre
+            </h2>
+
+            <p class="p_conteudo">
+                Linguagens: <br>- Aprendemos sobre a variedade linguística de homogeneidade e heterogeineidade;<br>- Norma padrão, inclusiva e etc;             
+            </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6fBOVygtNoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EH3J5K9ljHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WPWr_5ZhdyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            <h2>
+                Segundo Bimestre
+            </h2>
+
+            <p class="p_conteudo">
+                Linguagens 2° Bimestre: <br>- Observamos variações linguísticas; <br>- Variações culturais; <br>- História da arte até a da semana da arte moderna;             
+            </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OWkrebsp8Ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/02n2j7vRMuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h2>
+                Terceiro Bimestre
+            </h2>
+
+            <p class="p_conteudo">
+                Linguagens 3° Bimestre: <br>- Publicidade;  <br>- Análise de estruturas de textos e visuais de anúncio e propagandas;             
+            </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ITTNZeK_nWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Li7c8hbMDjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </section>
+
+        <aside class="aside">
+
+            <div class="divbordas">
+                <a href="brass_site_T.I.html">
+                    <img src="../imagens/ti_250px.jpeg" alt="">
+                    <p>T.I</p>
+                </a>
+            </div>
+
+            <div class="divbordas">
+                <a href="brass_site_humanas.html">
+                    <img src="../imagens/humanas_250px.jpg" alt="">
+                    <p>Ciências Humanas</p>
+                </a>
+            </div>
+
+            <div class="divbordas">
+                <a href="brass_site_matematica.html">
+                    <img src="../imagens/matematica_250px.jpg" alt="">
+                    <p>Matemática</p>
+                </a>
+            </div>
+
+            <div class="divbordas">
+                <a href="brass_site_natureza.html">
+                    <img src="../imagens/natureza_250px.png" alt="">
+                    <p>Ciências da Natureza</p>
+                </a>
+            </div>
+
+            <div class="divbordas">
+                <a href="brass_curriculo.html">
+                    <img src="../imagens/curriculos_250px.jpg" alt="">
+                    <p>Currículos</p>
+                </a>
+            </div>
+
+        </aside>
+        
+    </main>
+    
+    <hr class="hr_footer-main">
+
+    <footer class="footer">
+        <img src="../imagens/Senac_logo_70px.png" alt="" class="logo_senac_footer">
+        <img src="../imagens/logo_semfundo_420px.png" alt="" class="logo_footer">
+        <div></div>
+    </footer>
+    <script>
+        var date = new Date();
+        var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
+        document.getElementById("p1").innerHTML = current_date;
+
+        var current_time = date.getHours()+":"+date.getMinutes()+":"+ date.getSeconds();
+	    var date_time = current_date+" "+current_time;	
+	    document.getElementById("p1").innerHTML = date_time;
+    </script>
+</body>
+</html>
